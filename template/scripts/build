@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+cd $1 
+npm run build
+cp ./build/index.html site.region  
+rm -rf assets  
+mkdir -p assets  
+cp -r ./build/ assets/

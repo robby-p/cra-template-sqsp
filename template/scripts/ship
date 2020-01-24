@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+cd $1
+
+git diff-index --quiet HEAD -- || (echo UNSTAGED CHANGES, ABORTING! && exit 1 )
+npm run sqsp:build
+git add .
+git commit --allow-empty -m 'sqsp template ship'
+git push -f template head:master
