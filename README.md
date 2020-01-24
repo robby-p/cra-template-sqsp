@@ -6,7 +6,7 @@
 
 # Setup
 
-`npm run sqsp:setp` - enter the sqsp developer template remote git repo
+`npm run sqsp:setup` - enter the sqsp developer template remote git repo
 
 # Build and Ship
 
