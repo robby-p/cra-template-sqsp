@@ -2,7 +2,7 @@
 
 # Install
 
-`npx create-react-app --template ssh://git@code.squarespace.net:7999/~rpolana/cra-template-sqsp.git <NAME>`
+`npx create-react-app --template sqsp <NAME>`
 
 # Setup
 
