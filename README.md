@@ -1,10 +1,13 @@
-# cra-template
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+# Install
 
-For more information, please refer to:
+`npx create-react-app --template ssh://git@code.squarespace.net:7999/~rpolana/cra-template-sqsp.git <NAME>`
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+# Setup
+
+`npm run sqsp:setp` - enter the sqsp developer template remote git repo
+
+# Build and Ship
+
+`npm run sqsp:ship`
